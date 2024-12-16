@@ -10,7 +10,7 @@ document.getElementById('generateMemeBtn').addEventListener('click', async funct
     const response = await fetch(`https://api.openai.com/v1/images/generations`, {
         method: 'POST',
         headers: {
-            'Authorization': `Bearer sk-...D1wA`,
+            'Authorization': `Bearer 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`,
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
